@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            border: 2px blue dotted;
+            height: 500px;
+            /* justify-content: space-between; */
+            /* align-items: ; */
+            /* align-items: center; */
+            align-items: stretch;
+        }
+        .box{
+            width: 200px;
+            /* height: 200px; */
+            border: 3px red dotted;
+            font-size: 3em;
+        }
+        #box2{
+            flex-grow: 1;
+        }
+        /* #box1{
+           order: 2;
+        }           //for reverse portian
+        #box2{
+           order: 1;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <div class="container">
+        <div id="box1" class="box">BOX-1</div>
+        <div id="box2" class="box">BOX_2</div>
+        <!-- <div class="box">BOX-3</div> -->
+    </div>
+</body>
+</html>

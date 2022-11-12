@@ -1,0 +1,33 @@
+/* imidiet child */
+nav > ul{
+    display: flex;
+}
+nav >ul>li:hover>ul{
+    display: block;
+}
+.dropdowm{
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+}
+
+nav  li {
+list-style: none;
+padding: 10px;
+
+
+}
+nav li:hover{
+  
+    background-color: chartreuse;
+    
+    
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    color: brown;
+}
+h1{
+    background-color: aqua;
+}

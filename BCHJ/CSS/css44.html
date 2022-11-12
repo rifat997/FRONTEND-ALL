@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+    .menu{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-end;
+
+    }
+
+    .menu a{
+        text-decoration: none;
+        padding: 20px;
+        color: whitesmoke;
+
+    }
+     .menu a:hover{
+         background-color: violet;
+     }
+
+     @media screen and (max-width: 600px) {
+         .menu{
+             flex-direction: column;
+             padding: 5px;
+         }
+         
+         .menu a{
+             background-color: yellowgreen;
+             margin: 10px 0;
+             text-align: center;
+             border-radius: 8px;
+         }
+         
+     }
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="#"> Home</a>
+        <a href="#"> Contact</a>
+        <a href="#"> About me</a>
+        <a href="#"> Forum</a>
+
+    </div>
+</body>
+</html>

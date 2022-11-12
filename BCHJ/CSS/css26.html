@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseduo class and pseduo element</title>
+
+    <style>
+        
+        a.link:hover{
+            color: green;
+        }
+
+        input{
+            padding: 20px;
+            font-size: 1rem;
+            width: 150px;
+
+        }
+        input:focus{
+            background-color: green;
+        }
+
+
+        table{
+            border: 1px solid black;
+
+        }
+
+        tr,td{
+            border: 1px solid black;
+        }
+
+        tr:nth-child(odd){
+            background-color:royalblue;
+        }
+
+        p:hover{
+            color: salmon;
+        }
+
+        p::first-letter{
+            color: rgb(19, 112, 60);
+            font-size: 2rem;
+        }
+
+        p::after{
+            content: ">";
+        }
+    </style>
+
+
+</head>
+<body>
+    <a class="link" href="#">Tutorial</a>
+    <a href="#">Home</a>
+    <input type="text" placeholder="Enter your name">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+
+        </tr>
+         
+    <tr>
+        <td>Dil</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Mithila</td>
+        <td>11</td>
+    </tr>
+    </table>
+
+
+<p> lgkahldugi aldg uid l akdglsd lg adghasl dg adkd gag kdj dlfjd fdsfu almid a ai not al lsdhte als at  atll a  dl  </p>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

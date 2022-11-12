@@ -1,0 +1,8 @@
+body{
+	background-image: url("2d.jpg");
+	background-color: pink;
+	background-repeat: no-repeat;
+	background-position: right top ;
+	background-attachment: fixed;
+
+}

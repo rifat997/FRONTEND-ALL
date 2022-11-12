@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>HTML FROM VALIDATION</title>
+        
+    </head>
+    <body>
+        
+        <h1 align="center" style="background-color:yellow; color: rgba(212, 0, 255, 0.897);"> Creating Registration Form </h1>
+    <form action="">
+        <fieldset width="20%">
+            <legend>Student Registration</legend>
+        <table>
+                <tr>
+                    <td> <label for="name">Name</label> </td> 
+                    <td> <input type="text" name="name" placeholder="name"> </td>
+                </tr>
+                <tr>
+                    <td><label for="username">Username</label></td>
+                    <td><input type="text" name="username" value="" placeholder="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" name="password" value="" placeholder="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" value="" placeholder="email"></td>
+                </tr>
+                <tr>
+                    <td><lebel for="birth">Birth</td>
+                        <td><input type="date" id="birthdate" required> </td>
+                </tr>
+                <tr>
+                    <td> <label for="gender"> Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="male" required>male
+                        <input type="radio" name="gender" value="female" required>female
+                        <input type="radio" name="gender" value="others" required>others
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="food">Food</label></td>
+                    <td>
+                        <input type="checkbox" name="food" value="burger" required>Purger
+                        <input type="checkbox" name="food" value="pizza" required>Pizza
+                        <input type="checkbox" name="food" value="hotdog" required>Hotdog
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="department">Department</label></td>
+                    <td>
+                        <select>
+                            <option name="department"  required>CSE</option>
+                            <option name="department" required>EEE</option>
+                            <option name="department"  required>BBA</option>
+                            <option name="department"  required>Eng</option>
+                            <option name="department"  required>Arch</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="Reset" name="Name" value="Reset"></td>
+                    <td><input type ="submit" name="submit" value="submit"></td>
+                </tr>
+
+        </table>
+
+        </fieldset>
+    </form>
+    </body>
+</html>

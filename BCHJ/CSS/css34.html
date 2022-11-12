@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox model</title>
+    <style>
+        .flex{
+            
+            background-color: darkcyan ;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            flex-flow: wrap row;
+            justify-content: center;        
+            align-items: center;
+
+        }
+        .flex > div{
+            font-size: 40px;
+            margin: 10px;
+            padding: 25px;
+            width: 250px;
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="div1">   <!--<div class="div1" style="order: 2; flex-basis:150px;"-->
+            Dil
+        </div>
+        <div class="div2">
+            Siam
+        </div> 
+        <div class="div3">
+            Sazzad
+        </div>
+        <div class="div4">
+            Mahamud
+        </div>
+
+        <div class="div1">
+            Limon
+        </div>
+        <div class="div2">
+            Shanto
+        </div> 
+        <div class="div3">
+            Shopnil
+        </div>
+        <div class="div4">
+            Jamy
+        </div>
+
+    </div>
+</body>
+</html>

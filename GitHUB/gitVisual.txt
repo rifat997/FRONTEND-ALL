@@ -1,0 +1,15 @@
+1.go to the github
+2.open repo as name New repo
+3.new repo name
+4.echo "# secound-repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rifat997/secound-repo.git
+git push -u origin main
+
+fro change or add more codes to the code 
+1.git add .
+2.git commit -m ""
+3.git push

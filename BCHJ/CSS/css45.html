@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive one</title>
+    <style>
+
+
+        *{
+            box-sizing: border-box;
+        }
+
+        .column{
+            float: left;
+            width: 25%;
+            padding: 10px;
+
+        }
+@media screen and (max-width: 900px) {
+    .column{
+        float: left;
+        width: 50%;
+    }
+  
+    @media screen and (max-width: 600px) {
+    .column{
+        width: 100%;
+    }  
+
+ /*   .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .column{
+        flex: 25%;
+        padding: 8px;
+
+
+    }
+*/
+}
+
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <h1>HTML</h1>
+            <p>At clitaEt sit kasd sa erat dolore gubergren consetetur dolor aliquyam. Sadipscing clita duo dolor dolore et ipsum sit dolores elitr, et et no voluptua clita sea sed dolor, labore magna diam et duo clita diam duo kasd amet. Diam at amet lorem sed.</p>
+        </div>
+        <div class="column">
+            <h1>CSS</h1>
+            <p>At clita sed, lorem vpsum gubergren dolor. Sit vero eos erat dolore gubergren consetetur dolor aliquyam. Sadipscing clita duo dolor dolore et ipsum sit dolores elitr, et et no voluptua clita sea sed dolor, labore magna diam et duo clita diam duo kasd amet. Diam at amet lorem sed.</p>
+        </div>
+        <div class="column">
+            <h1>JS</h1>
+            <p>At clita voed, loumre gubergren consetetur dolor aliquyam. Sadipscing clita duo dolor dolore et ipsum sit dolores elitr, et et no voluptua clita sea sed dolor, labore magna diam et duo clita diam duo kasd amet. Diam at amet lorem sed.</p>
+        </div>
+        <div class="column">
+            <h1>C++</h1>
+            <p>At clita volu eosetetur dolor aliquyam. Sadipscing clita duo dolor dolore et ipsum sit dolores elitr, et et no voluptua clita sea sed dolor, labore magna diam et duo clita diam duo kasd amet. Diam at amet lorem sed.</p>
+        </div>
+        
+
+    </div>
+</body>
+</html>

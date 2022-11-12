@@ -1,0 +1,9 @@
+.gradient-style{
+	height:400px;
+	width: 100%;
+	background-image: radial-gradient(circle,red,green,yellow,green);
+
+
+}
+
+/*we can also use linear gradient

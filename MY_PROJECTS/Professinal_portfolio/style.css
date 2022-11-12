@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+/*navbar styling*/
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background-color: black;
+    font-family: 'ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background-color: crimson;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+
+}
+.navbar .logo a span{
+    color:lawngreen;
+    font-size: xx-large;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3 ease;
+}
+.navbar .menu li a:hover{
+    color:yellow;
+}
+
+/*menu-btn styling*/
+.menu-btn{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    
+    width: 2%;
+    
+    
+}
+
+
+/*home-selection styling*/
+#home.home {
+    display: flex;
+    background: url("New\ folder/r2-removebg-preview.png") no-repeat;
+    color: blueviolet;
+    height: 100vh;
+    min-height: 500px;
+    font-size: x-large;
+}
+
+.home .max-width {
+    margin-left: 30%;
+
+}
+
+.home .home-content .text-1 {
+    font-size: 35px;
+    color: blue;
+}
+
+.home .home-content .text-2 {
+    font-size: 70px;
+    font-weight: 600;
+    color:lawngreen;
+
+}
+
+.home .home-content .text-3 {
+    font-size: 50px;
+    color: black;
+}
+.home .home-content .text-3 span {
+    color: red;
+    font-weight: 500;
+}
+ /*responsive media query start*/
+ @media (max-width: 991px){
+    .max-width {
+        padding: 0 50px;
+    }
+    .navbar .menu{
+        position: fixed;
+        background-color: black;
+    }
+ }

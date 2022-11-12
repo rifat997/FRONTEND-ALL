@@ -1,0 +1,130 @@
+<!--block-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            display: block;
+        }
+
+        h1 {
+            display: inline;
+        }
+
+        #r10:focus {
+            color: brown;
+
+        }
+
+        .r11:visited {
+            color: blue;
+
+        }
+
+        li:first-child {
+            color: rgb(0, 47, 255);
+        }
+
+        li:last-child {
+            color: rgb(0, 47, 255);
+        }
+
+        /*li:nth-child(n){ sobgula line n
+            color: tomato;
+        }*/
+        li:nth-child(2n) {
+            background-color: tomato;
+        }
+
+        li:nth-child(2n+1) {
+            background-color: rgb(83, 71, 255);
+        }
+
+        li {
+            color: white;
+        }
+
+
+        h3::before {
+            content: ' Rifat';
+        } 
+        h3::after{
+            content: ' your book';
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1>Big Mango</h1>
+    <!--how to do inline -->
+    <h1>:Little cattle</h1>
+    <span> Hellow </span>
+    <span>family</span>
+    <span>world</span>
+
+
+
+
+    <!--div*3=short hand-->
+    <div class="r1">
+        <a href="">#</a>
+        <a href="">#</a>
+        <a href="">#</a>
+        <a href="">#</a>
+        <a href="">#</a>
+        <a href="">#</a>
+        <a href="">#</a>
+        <!--display block so it would be in serial-->
+        <br>
+        <a href="https://www.google.com/search?q=ww.dpe.gov+bd&oq=ww.&aqs=chrome.1.69i57j0i512l4j0i10i512j0i512l4.3943j0j7&sourceid=chrome&ie=UTF-8"
+            class="r11">Visit</a>
+        <!--how to set visaited pages -->
+    </div>
+    <div></div>
+
+
+
+
+    <!--pseudo class -->
+    <input type="text" name="" id="r10">
+    <input type="text" name="" id="r2">
+    <input type="text" name="" id="r3">
+
+
+
+    <!--ul>li*6 // with condition-->
+    <ul>
+        <li>Rifat</li>
+        <li>Annoy</li>
+        <li>onontu</li>
+        <li>NIBIR</li>
+        <li>ALIA</li>
+        <li>ALIZA</li>
+    </ul>
+
+
+    <!--  h3*6{what you want to erite -$}  -->
+    <!--  add element before and after  -->
+
+
+    <h3>show mw-1</h3>
+    <h3>show mw-2</h3>
+    <h3>show mw-3</h3>
+    <h3>show mw-4</h3>
+    <h3>show mw-5</h3>
+    <h3>show mw-6</h3>
+    
+
+
+</body>
+
+</html>

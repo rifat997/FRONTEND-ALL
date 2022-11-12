@@ -1,0 +1,107 @@
+body {
+    font-family: '';
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.r1 {
+    color: rgba(255, 0, 76, 0.733);
+    box-shadow: 2px 2px 10px 10px blueviolet;
+}
+
+.r2 {
+    color: rgb(47, 120, 255);
+    box-shadow: 10px 2px 10px 10px;
+    margin-left: 3%;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.r4 {
+    width: 50%;
+    padding: 50px;
+    box-shadow: 10px 10px 10px 10px greenyellow;
+}
+
+.r4 img {
+    width: 100%;
+}
+
+.Link-button {
+    text-decoration: none;
+    background-color: coral;
+    padding: 2%;
+    color: white;
+    font-weight: 700;
+
+}
+
+.Link-button:hover {
+    color: blueviolet;
+    background-color: aqua;
+}
+
+.top_banner {
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+}
+
+div {
+    margin: auto;
+}
+
+.middle-banner {
+    margin-top: 25%;
+}
+
+.r4 {
+    margin-left: 40px;
+
+}
+
+.r5 {
+
+    text-decoration: double;
+    box-shadow: 2px 2px 2px 2px rgb(238, 255, 0);
+
+
+}
+
+.r7 {
+    width: 90%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 10px 10px greenyellow;
+
+}
+
+.r8 p {
+    margin-bottom: 35%;
+    margin-left: 100px;
+    background-color: aqua;
+    font-size: larger;
+}
+
+.r8 h1 {
+    margin-left: 100px;
+}
+
+.R9:hover {
+    background-color: hotpink;
+}
+
+.R9 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: larger;
+}
+
+.r10 {
+    background-color: blueviolet;
+    font-size: x-large;
+    color: white;
+}

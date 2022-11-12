@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple nav</title>
+    <script src="https://kit.fontawesome.com/5ab093af92.js" crossorigin="anonymous"></script>
+    <style>
+        .login-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .login-form input ,button{
+            font-size: 1.5em;
+            margin-top: 15px;
+            border: 3px lightgreen solid;
+        }
+        .login-form button{
+            background-color: coral;
+            font-weight: 700;
+            pad: 5px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            margin-right: 15px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+           
+          <span>
+            <a href="">Home</a>
+            <a href="">Productus</a>
+            <a href="">About</a>
+            <a href="">Orders</a>
+          </span>
+
+
+           <span>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+           </span>
+
+
+        </nav>
+
+
+    </header>
+
+    <section class="login-container">
+        <form action="" class="login-form">
+            <h2>Login Form</h2>
+            <input type="email" name="" id="" placeholder="email" required>
+            <input type="password" name="" id="" placeholder="password" required>
+            <button type="submit">LOGIN</button>
+        </form>
+    </section>
+</body>
+
+</html>

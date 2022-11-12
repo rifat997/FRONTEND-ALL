@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z_index and variables</title>
+    <style>
+        :root{
+            --primary-color: green;
+            --secondary-color:red;
+        }
+        div{
+            height: 300px;
+            width: 300px;
+        }
+        #div1{         
+            background-color: var(--primary-color,brown);
+            position: absolute;
+            z-index: 1;
+        }
+        #div2{
+            background-color: var(--secondary-color);
+            position: absolute;
+            left: 150px;
+            top: 150px;
+            z-index: 1;
+        }
+        @media screen and (max-width:700px) {
+           --primary-color: black;
+           --secondary0-color: pink;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div> 
+    <div id="div2"></div>
+</body>
+</html>

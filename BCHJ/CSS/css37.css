@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.card{
+    margin: 0 auto;
+    width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0px 4px 8px 0px rgb(135, 236, 236);
+    transition: 0.3s;
+    font-size: 0;
+}
+.card:hover{
+    box-shadow: 0 16px 32px 0 rgb(115, 206, 218) ;
+}
+.head #result{
+    width: 340px;
+    height: 100px;
+    font-size: 32px;
+    font-weight:  bold;
+    text-align: right;
+    padding: 0px 5px;
+    letter-spacing: 2px;
+
+}
+
+.btn{
+    width: 87px;
+    height: 69px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: blueviolet;
+    color:snow;
+
+
+}
+.style{
+    background-color: rgba(238, 68, 161, 0.664);
+}
+.btn:hover{
+    background-color: rgb(133, 228, 44);
+}

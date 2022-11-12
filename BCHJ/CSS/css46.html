@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respnsive with grid</title>
+    <style>
+
+*{
+    box-sizing: border-box;
+
+}
+
+.header{
+    background-color: yellowgreen;
+    column-rule: thistle;
+    padding: 1% 5%;
+    text-align: center;
+}
+
+.navigation{
+    padding: 1% 5%;
+    background-color: wheat;
+    float: right;
+}
+
+.navigation a{
+
+    color:black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.main{
+    padding: 1% 5%;
+    background-color: turquoise;
+}
+
+.aside{
+    padding: 1% 5%;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        [class*=col-]{
+            float: left;
+            padding: 8px;
+        }
+
+        .row::after{
+            content: '';
+            clear: both;
+            display: table;
+        
+        }
+
+        @media screen and (max-width:800px) {
+
+            [class*="col-"]{
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+<div class="header">
+    <h1>DIL MAHMUD KHAN</h1>
+
+</div>    
+        <div class="row">
+            <div class="navigation col-2">
+                <a href="#">Home</a>
+                <a href="#">office</a>
+                <a href="#">Contact</a>
+            </div>
+
+        <div class="main col-7">
+            <h1>I am a programer</h1>
+            <p>Sed sadipscing dolore erat ea takimata takimata amet, ut sea amet at aliquyam duo sit ipsum labore, sed lorem justo consetetur accusam ut sit ipsum labore, lorem aliquyam diam vero sit kasd lorem amet. Erat dolores dolor amet magna lorem diam eirmod. Magna et sadipscing et nonumy dolor takimata tempor. Accusam amet et voluptua invidunt labore dolore duo elitr, duo takimata et eos et dolores dolore et..</p>
+            <p>Sed sadipscing dolore erat ea takimata takimata amet, ut sea amet at aliquyam duo sit ipsum labore, sed lorem justo consetetur accusam ut sit ipsum labore, lorem aliquyam diam vero sit kasd lorem amet. Erat dolores dolor amet magna lorem diam eirmod. Magna et sadipscing et nonumy dolor takimata tempor. Accusam amet et voluptua invidunt labore dolore duo elitr, duo takimata et eos et dolores dolore et..</p>
+
+            <p>Sed sadipscing dolore erat ea takimata takimata amet, ut sea amet at aliquyam duo sit ipsum labore, sed lorem justo consetetur accusam ut sit ipsum labore, lorem aliquyam diam vero sit kasd lorem amet. Erat dolores dolor amet magna lorem diam eirmod. Magna et sadipscing et nonumy dolor takimata tempor. Accusam amet et voluptua invidunt labore dolore duo elitr, duo takimata et eos et dolores dolore et..</p>
+        </div>
+
+        <div class="aside col-3">
+            <h1>I am a programer</h1>
+            <p>Sed sadipscing dolore erat ea takimata takimata amet, ut sea amet at aliquyam duo sit ipsum labore, sed lorem justo consetetur accusam ut sit ipsum labore, lorem aliquyam diam vero sit kasd lorem amet. Erat dolores dolor amet magna lorem diam eirmod. Magna et sadipscing et nonumy dolor takimata tempor. Accusam amet et voluptua invidunt labore dolore duo elitr, duo takimata et eos et dolores dolore et..</p>
+            <p>Sed sadipscing dolore erat ea takimata takimata amet, ut sea amet at aliquyam duo sit ipsum labore, sed lorem justo consetetur accusam ut sit ipsum labore, lorem aliquyam diam vero sit kasd lorem amet. Erat dolores dolor amet magna lorem diam eirmod. Magna et sadipscing et nonumy dolor takimata tempor. Accusam amet et voluptua invidunt labore dolore duo elitr, duo takimata et eos et dolores dolore et..</p>
+
+            <p>Sed sadipscing dolore erat ea takimata takimata amet, ut sea amet at aliquyam duo sit ipsum labore, sed lorem justo consetetur accusam ut sit ipsum labore, lorem aliquyam diam vero sit kasd lorem amet. Erat dolores dolor amet magna lorem diam eirmod. Magna et sadipscing et nonumy dolor takimata tempor. Accusam amet et voluptua invidunt labore dolore duo elitr, duo takimata et eos et dolores dolore et..</p>
+        </div>
+
+ </div>
+
+ <div class="footer">
+     &copy; codewithDil 2021/developed by DIL
+ </div>
+
+</body>
+</html>

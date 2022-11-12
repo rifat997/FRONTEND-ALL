@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class and element</title>
+    <style>
+        p:hover{
+            background-color: black;
+            color: white;
+        }
+        p:first-child{
+            background-color: black;
+            color: white;
+        }
+        .demo p:nth-child(3){
+            background-color: black;
+            color: white;
+        }
+
+        li:nth-child(odd){
+            background-color: whitesmoke;
+            color: teal;
+        }
+         p::first-letter{
+             color: darkcyan;
+             font-size: 6rem;
+         }
+         ::selection{
+             color: darkgoldenrod;
+             
+         }
+
+         .demo::before{
+             content: "";
+             width: 50%;
+             height: 25px;
+             background-color: darkgray;
+             display: inline-block;
+         }
+         input::placeholder{
+             color: darkolivegreen;
+         }
+
+    </style>
+</head>
+<body>
+     <ul>
+         <li>home1</li>
+         <li>home2</li>
+         <li>home3</li>
+     </ul>
+
+
+    <div class="demo">
+        <p> udgu a hdlakg dalkgj adlgkhja dhglakdgjasd galkdhga dug d gi</p>
+        <p>fdlkghsauig udgu a hdlakg dalkgj adlgkhja dhglakdgjasd galkdhga dug d gi</p>
+        <p>rdlkghsauig udgu a hdlakg dalkgj adlgkhja dhglakdgjasd galkdhga dug d gi</p>
+        <p>edlkghsauig udgu a hdlakg dalkgj adlgkhja dhglakdgjasd galkdhga dug d gi</p>
+
+
+    </div>
+
+    <input type="text" placeholder="hello boys">
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+
+.img{
+    max-width: 190px;
+    height: auto;
+    border: solid black 2px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: dil;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+}
+.img:hover{
+    animation-name: dil;
+    animation-duration: 3sec;
+}
+
+@keyframes dil {
+    0% {
+        max-width: 190px;
+        border-color: black;
+    }
+    100%{
+        max-width: 300px;
+        border: chartreuse;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <img class="img" src="images/img.jpg" alt="">
+    
+
+</body>
+</html>
