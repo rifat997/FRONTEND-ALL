@@ -39,6 +39,11 @@ section {
     padding: 0 80px;
     margin: auto;
 }
+.dil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .about,
 .services,
@@ -103,8 +108,13 @@ section .title::after {
 
 .navbar.sticky {
     padding: 15px 0;
-    background: black;
+    background-color: white;
+    
+
 }
+/* .navbar.sticky.a{
+    color: white;
+} */
 
 .navbar .max-width {
     display: flex;
@@ -116,6 +126,8 @@ section .title::after {
     color: greenyellow;
     font-size: 35px;
     font-weight: 600;
+    
+    
 }
 
 .navbar .logo a span {
@@ -123,21 +135,25 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.navbar.sticky .logo a span {
-    color: #fff;
-}
 
+.logo{
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
 .navbar .menu li {
     list-style: none;
     display: inline-block;
 }
+.rifata{
+    border-radius: 10px;
+}
 
 .navbar .menu li a {
     display: block;
-    color: #fff;
+    color: black;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 25px;
+    margin-left: 30px;
     transition: color 0.3s ease;
 }
 
@@ -189,27 +205,33 @@ section .title::after {
 
 
 /* home section styling */
-.home {
+/* .home {
     display: flex;
-    background: url("images/n1.png") no-repeat center;
+    background: url("images/p1.jpg") no-repeat center;
     height: 100vh;
+   
 
     color: #fff;
     min-height: 500 px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
-}
+} */
 
-.home .max-width {
+/* .home .max-width {
     width: 100%;
     display: flex;
+    padding-left: 50px;
 }
 
 .home .max-width .row {
     margin-right: 0;
-}
+} */
 
+
+.max-width{
+    display: flex;
+}
 .home .home-content .text-1 {
     font-size: 27px;
 }
@@ -226,7 +248,7 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-    color: rgb(220, 20, 103);
+    color: rgb(20, 220, 63);
     font-weight: 500;
 }
 
@@ -804,3 +826,4 @@ footer span a:hover {
         line-height: 38px;
     }
 }
+
