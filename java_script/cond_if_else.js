@@ -79,3 +79,23 @@ else{
 }
 
 }
+
+//if else recap :
+
+var price =true;
+if (myprice =true){
+    console.log ("I will buy a car");
+}
+var price =50000;
+if (myprice ==true){
+    console.log ("I will buy a BIke");
+}
+
+var price1 =50000;
+var myprice1=5000;
+if (myprice1 >= price1){
+    console.log ("I cant  buy a BIke");
+}
+else {
+    console.log ("I will buy a cycle")
+}
