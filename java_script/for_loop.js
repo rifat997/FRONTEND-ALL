@@ -22,3 +22,11 @@ for(i=0; i<friendsNameCount; i++)
 {
     console.log(friendsNamie[i])
 }
+
+//recap for loop:
+for (var item=0; item<7; item++){
+    console.log("Item increased")//item ncreased 7 bar print hobe
+    console.log(item)//show 06 print 
+}
+
+//

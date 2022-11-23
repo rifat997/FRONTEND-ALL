@@ -28,4 +28,17 @@ console.log("%%")
 console.log("^^")
 startFan();
 
+// funtion recap::
+function rifat() { //just declaration of the function
+    console.log('open the door')
+    console.log('close the door')
+    console.log('Down Toen')
+}
+
+//print the  funtion
+rifat();
+var dog= "tommy"
+var cat = 'pinu'
+var ele = "voglu"
+rifat();
 
