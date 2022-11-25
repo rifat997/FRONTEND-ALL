@@ -32,3 +32,12 @@ function multi(val1, val2) {
 }
 var total = multi(500, 10)
 console.log('Show value is ', total)
+
+//div ::
+
+function div(int1, int2) {
+    var result = int1 / int2;
+    return result;
+}
+var totaldiv = div(500, 10)
+console.log('Show value is ', totaldiv)
