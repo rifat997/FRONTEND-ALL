@@ -37,8 +37,25 @@ function rifat() { //just declaration of the function
 
 //print the  funtion
 rifat();
-var dog= "tommy"
+var dog = "tommy"
 var cat = 'pinu'
 var ele = "voglu"
 rifat();
 
+//function recap once ::
+function rif() {
+    console.log('Money is twonty')
+}
+rif();
+
+
+
+//add three number ::
+
+
+function Threenumber(num1, num2, num3) {
+    var total = (num1 + num2 + num3)
+    return total;
+}
+ var result = Threenumber(89, 90, 91);
+console.log('Show it ', result)
